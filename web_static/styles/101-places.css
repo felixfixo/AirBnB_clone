@@ -15,7 +15,7 @@
 
 .places article {
         width: 430px;
-        height: 380px;
+        height: auto;
         padding: 20px;
         margin: 20px;
         border: 1px solid #FF5A5F;
@@ -90,6 +90,71 @@
         margin: 0;
 }
 
-.places article> .user {
+.places article>.user {
         margin-top: 25px;
+}
+
+.places>article>.amenities,
+.reviews {
+        margin-top: 40px;
+}
+
+.places>article>.reviews>ul {
+        padding-left: 0;
+}
+
+.places>article>.amenities>ul {
+        padding-left: 0;
+}
+
+.places>article>.amenities>ul li p {
+        padding-left: 20px;
+}
+
+.places>article>.amenities>ul li {
+        padding: 10px;
+        text-indent: 30px;
+}
+
+.places>article>.amenities,
+.reviews>ul>li {
+        list-style: none;
+}
+
+.places>article>.amenities>ul li:nth-child(1) {
+        background-image: url('../images/icon_tv.png');
+        background-repeat: no-repeat;
+        background-size: 30px;
+}
+
+.places>article>.amenities>ul li:nth-child(2) {
+        background-image: url('../images/icon_wifi.png');
+        background-repeat: no-repeat;
+        background-size: 30px;
+}
+
+.places>article>.amenities>ul li:nth-child(3) {
+        background-image: url('../images/icon_pets.png');
+        background-repeat: no-repeat;
+        background-size: 30px;
+}
+
+.places>article>.amenities h2 {
+        font-size: 16px;
+        border-bottom: 1px solid #DDDDDD;
+        text-align: left;
+}
+
+.places>article>.reviews>h2 {
+        font-size: 16px;
+        border-bottom: 1px solid #DDDDDD;
+        text-align: left;
+}
+
+.places>article>.reviews>ul li h3 {
+        font-size: 14px;
+}
+
+.places>article>.reviews>ul li p {
+        font-size: 12px;
 }
